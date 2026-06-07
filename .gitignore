@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# FastAPI
+*.log
+
+# Node
+node_modules/
+dist/
+build/
+
+# Vite
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/chroma_db/
+data/temp_uploads/
+
+# Environment
+.env.local
+.env.production
+
+# Testing
+.coverage
+pytest_cache/
+
+# Misc
+*.sqlite3
