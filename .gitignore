@@ -1,41 +1,32 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-venv/
-.env
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
 
-# FastAPI
-*.log
+# Node / React Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Node
-node_modules/
-dist/
-build/
+# Database & Uploads
+data/
+*.sqlite3
+*.db
 
-# Vite
-.vite/
-
-# IDE
-.vscode/
-.idea/
-
-# OS
+# OS Files
 .DS_Store
 Thumbs.db
-
-# Data
-data/chroma_db/
-data/temp_uploads/
-
-# Environment
-.env.local
-.env.production
-
-# Testing
-.coverage
-pytest_cache/
-
-# Misc
-*.sqlite3
